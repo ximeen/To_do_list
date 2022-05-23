@@ -1,0 +1,33 @@
+// ----------------------------IMPORT FONT------------------------------------------
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+
+// ---------------------------COLORS VAR---------------------------------------------
+
+:root{
+    --background-color1: #8052ec;
+    --background-color2: #d161ff;
+    --white-color: #FFF;
+    --gray-light-color: #d1d3d4;
+    --black-color: #111111;
+    --light-dark-color: #444;
+}
+
+// ------------------------------RESESTS---------------------------------------------
+
+*,*::before, *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    height: 100vh;
+    background: linear-gradient(
+        135deg,
+        var(--background-color1),
+        var(--background-color2)   
+    );
+    font-family: 'Poppins', sans-serif;
+}
